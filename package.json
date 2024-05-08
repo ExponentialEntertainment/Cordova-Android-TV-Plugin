@@ -1,6 +1,6 @@
 {
-	"version": "1.0.3",
-	"name": "hwp-cordova-plugin-android-tv",
+	"version": "1.0.5",
+	"name": "ee-cordova-plugin-android-tv",
 	"cordova_name": "AndroidTVPlugin",
 	"description": "Cordova Android TV Plugin",
 	"platforms": [
@@ -11,7 +11,7 @@
 			"name": "cordova",
 			"version": ">=3.0.0"
 		}
-	],
+	], 
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/ExponentialEntertainment/Cordova-Android-TV-Plugin.git"
@@ -20,7 +20,7 @@
 		"ecosystem:cordova",
 		"cordova-android"
 	],
-	"author": "Hugh Isaacs II",
+	"author": "Exponential Entertainment",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/ExponentialEntertainment/Cordova-Android-TV-Plugin/issues"

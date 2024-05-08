@@ -2,15 +2,14 @@
 <plugin
 	xmlns="http://cordova.apache.org/ns/plugins/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	id="com.hughisaacs2.cordova.plugins.androidtvplugin"
-	version="1.0.4">
+	id="ee-cordova-plugin-android-tv"
+	version="1.0.5">
 
 	<name>AndroidTVPlugin</name>
 	<description>Cordova Android TV Plugin</description>
 	<author
-		email="hughisaacs@acrylicstyle.com"
-		href="http://hughisaacs2.acrylicstyle.com">
-		Hugh Isaacs II
+		email="developers@exponentialent.com">
+		Exponential Entetainment, Inc
 	</author>
 	<license>MIT</license>
 	<keywords>ecosystem:cordova,cordova-android-tv</keywords>
