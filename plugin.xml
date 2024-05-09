@@ -30,7 +30,9 @@
 			<category android:name="android.intent.category.LEANBACK_LAUNCHER" />
 		</config-file>
 
-		<hook type="after_prepare" src="afterPrepare.js" />
+		<edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
+			<activity android:banner="@drawable/banner" />
+		</edit-config>
 	</platform>
 
 </plugin>
