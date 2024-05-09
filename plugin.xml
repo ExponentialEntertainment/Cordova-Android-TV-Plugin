@@ -29,10 +29,6 @@
 			<category android:name="android.intent.category.LAUNCHER" />
 			<category android:name="android.intent.category.LEANBACK_LAUNCHER" />
 		</config-file>
-
-		<!-- <edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
-			<application android:banner="@drawable/banner" />
-		</edit-config> -->
 	</platform>
 
 </plugin>
