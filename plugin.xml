@@ -20,6 +20,7 @@
 	<platform name="android">
 		<config-file target="AndroidManifest.xml" parent="/manifest">
 			<uses-feature android:name="android.software.leanback" android:required="true" />
+			<uses-feature android:name="android.hardware.touchscreen" android:required="false" />
 		</config-file>
 
 		<config-file target="AndroidManifest.xml"
