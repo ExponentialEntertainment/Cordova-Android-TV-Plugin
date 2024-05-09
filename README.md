@@ -1,12 +1,8 @@
 # Android TV Plugin for Cordova
 
-Cordova plugin to add tags to the AndroidManifest.xml that'll restrict your Cordova app to run only on Google TV, Android TV..
+Cordova plugin to add tags to the AndroidManifest.xml that'll restrict your Cordova app to run only on Google TV, Android TV.
 
 If you want to interact with the controls on an Android TV or Google TV device just set events on the arrow keys like you would with a desktop web app.
-
-## To-do
-
--   Set Android TV leanback banner from Cordova manifest.
 
 ## Install
 
