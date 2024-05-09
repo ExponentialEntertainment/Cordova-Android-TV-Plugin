@@ -13,8 +13,6 @@ module.exports = function (context) {
 				throw new Error("Unable to find AndroidManifest.xml: " + err);
 			}
 
-			let result;
-
 			if (!/<application[^>]*\bandroid:banner/.test(data)) {
 				console.log("Adding banner attribute");
 				data = data.replace(
@@ -23,7 +21,7 @@ module.exports = function (context) {
 				);
 			}
 
-			fs.writeFile(manifestFile, result, "utf8", function (err) {
+			fs.writeFile(manifestFile, data, "utf8", function (err) {
 				if (err) throw new Error("Unable to write into AndroidManifest.xml: " + err);
 			});
 		});
